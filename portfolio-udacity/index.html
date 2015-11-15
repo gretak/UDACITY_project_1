@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Portfolio Home</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/stylish-portfolio.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    </head>
+
+    <body>
+
+        <!-- About -->
+        <section id="about" class="about bg-info">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2>Welcome to my portfolio website!</h2>
+                        <a href="https://www.udacity.com/" target="_blank"><img class="udacity" src="http://screenshot.net/r94rwt0.jpg" alt="udacity-logo">
+                        </a>
+                        <p class="lead">Feel free to have a look around my portfolio, and contact me if you have any questions or suggestions.</p>
+                    </div>
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.container -->
+        </section>
+
+
+        <!-- Callout -->
+        <aside class="callout">
+            <div class="text-vertical-center">
+                <h1>“Curiosity is the main energy...”
+                    ― Robert Rauschenberg</h1>
+                </div>
+            </aside><br/><br/>
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h2>My Work</h2>
+                    <hr class="small">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a target="_blank" href="responsive.html">
+                                    <img class="img-portfolio img-responsive" alt="responsive-img" src="img/portfolio-1.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a target="_blank" href="galereya-master/demo/demo.html">
+                                    <img class="img-portfolio img-responsive" alt="fine-art" src="img/fineart.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="#">
+                                    <img class="img-portfolio img-responsive" alt="html-email" src="img/portfolio-3.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a target="_blank" href="projects.html">
+                                    <img class="img-portfolio img-responsive" alt="other-projects" src="img/portfolio-4.jpg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    <br/><br/>
+</section>
+
+
+<!-- Call to Action -->
+<aside class="call-to-action bg-primary">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h3>The buttons below are impossible to resist.</h3>
+                <a target="_blank" href="http://gretakava.6te.net" class="btn btn-lg btn-dark">My CV</a>
+                <a target="_blank" href="http://www.artgallery.co.uk/profile/default.aspx?adurl=greta_kavaliauskaite" class="btn btn-lg btn-dark">Art Gallery</a>
+            </div>
+        </div>
+    </div>
+</aside>
+
+
+<!-- Footer -->
+<footer>
+    <div id=contact class="container">
+        <div class="row">
+            <div class="col-lg-10 col-lg-offset-1 text-center">
+                <h4><strong>Greta Kavaliauskaite</strong>
+                </h4>
+                <p>41 Morrab Gardens<br>London, UK IG39HG</p>
+                <ul class="list-unstyled">
+                    <li><i class="fa fa-phone fa-fw"></i> (+447) 462-122877</li>
+                    <li><i class="fa fa-phone fa-fw"></i> (+370) 608-77-854</li>
+                    <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:g.kavaliauskaite@email.com">g.kavaliauskaite@email.com</a>
+                    </li>
+                </ul>
+                <br>
+                <ul class="list-inline">
+                    <li>
+                        <a target="_blank" href="https://www.facebook.com/greta.kavaliauskaite"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://www.linkedin.com/pub/greta-kavaliauskaite/6a/6a6/2b1"><i class="fa fa-linkedin fa-fw fa-3x fa-spin"></i></a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://plus.google.com/110544125963819240572"><i class="fa fa-google-plus fa-fw fa-3x"></i></a>
+                    </li>
+                </ul>
+                <hr class="small">
+                <p class="text-muted">Copyright &copy; Greta Kavaliauskaite 2015</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="js/jquery.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+
+<!-- Custom Theme JavaScript -->
+<script>
+    // Closes the sidebar menu
+    $("#menu-close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+
+    // Opens the sidebar menu
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+
+    // Scrolls to the selected menu item on the page
+    $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+    </script>
+
+</body>
+
+</html>
